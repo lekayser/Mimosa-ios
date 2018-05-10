@@ -19,7 +19,7 @@ class PointOfInterestsManager {
         initFakes()
     }
     
-    func initFakes()
+    private func initFakes()
     {
         let newPoIAsobi = PointOfInterest(description:"Pottery", picture:"picture 1", category:"asobi")
         let newPoITaberu = PointOfInterest(description:"Food", picture:"picture 2", category:"taberu")

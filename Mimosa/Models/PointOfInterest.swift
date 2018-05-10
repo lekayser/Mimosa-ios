@@ -10,6 +10,9 @@ import Foundation
 
 class PointOfInterest {
     
+    // might need an id here
+    // var id:String
+    
     var description:String
     var picture:String
     var category:String
